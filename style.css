@@ -1,0 +1,58 @@
+#text{
+    font-size: large;
+}
+#choices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 2px 0px 2px;
+    width: 200px;
+    height: 394px;
+    align-items: center;
+    border-radius: 20px;
+}
+button{
+    margin: 1px 0px 1px 0px;
+    width: 140px;
+    border-radius: 20px;
+    border-color: rgb(157, 122, 240);
+    cursor: pointer;
+    font-size: larger;
+}
+#hintButton{
+    opacity: 5%;
+    width: 80px;
+    margin: 0px 0px 0px 20px;
+}
+#verbs{
+    background-color: rgb(120, 188, 243);
+}
+#nouns{
+    background-color: rgb(216, 112, 147);
+}
+#adjectives{
+    background-color: rgb(106, 219, 106);
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.fillSpace{
+    cursor: pointer;
+    font-weight: bold;
+}
+#rules{
+    background-color: rgb(168, 99, 177);
+    border-radius: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+    font-size: larger;
+}
